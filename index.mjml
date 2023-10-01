@@ -1,0 +1,310 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+
+    <mj-attributes>
+      <mj-all color="#FFFFFF" font-family="Helvetica" padding="0" />
+      <mj-class name="body-bg" background-color="#050505" />
+      <mj-class name="body-text" color="#FFFFFF" font-size="18px" line-height="1.45" padding="0px 15px 15px 35px" />
+      <mj-class name="twitch-bg" background-color="#9146FF" />
+      <mj-class name="header-body-text" color="#69EDC2" font-size="22px" line-height="22px" padding="8px 0px 15px 35px" />
+      <mj-class name="btn" background-color="#69EDC2" color="#000000" font-size="20px" border-radius="25px" align="left" inner-padding="13px 60px" padding="10px 0px 40px 35px" />
+      <mj-class name="img-text" align="center" color="#69EDC2" font-size="22px" padding="40px 10px 0px 0px" line-height="1.45" font-style="italic" font-weight="600" align="center" />
+      <mj-class name="divider" border-color="#69EDC2" width="50px" padding-top="15px" />
+      <mj-class name="social-links" align="center" font-size="14px" text-decoration="none" padding-bottom="20px" />
+      <mj-class name="footer-text" align="center" font-size="10px" color="#FFFFFF" />
+    </mj-attributes>
+
+
+    <mj-style>
+      .header-anchor-text {
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+
+      .header-anchor-text:hover {
+        text-decoration: none;
+      }
+
+      .footer-link {
+        display: inline;
+        text-decoration: none;
+      }
+
+      .text-white {
+        color: #FFFFFF;
+      }
+
+      .btn-text-white:hover a {
+        color: #FFFFFF !important;
+      }
+
+      .footer-link:hover,
+      .text-white:hover {
+        color: #FFFFFF !important;
+      }
+
+
+      @media (max-width: 480px) {
+        .hidden-text {
+          display: none;
+        }
+
+        .mobile-image1 {
+          padding-left: 60px !important;
+          padding-top: 0px !important
+        }
+
+        .mobile-image2 {
+          display: none;
+        }
+
+        .mobile-image3 {
+          padding-left: 60px !important;
+          padding-top: 0px !important;
+          padding-bottom: 10px !important;
+        }
+
+        .mobile-image4 {
+          display: none;
+        }
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#f2f2f2">
+    <!-- Start of Header-->
+    <mj-section background-color="#9146FF">
+      <mj-group>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/zfhxFLRD/logo.jpg" alt="twitch logo" width="150px" align="left" padding="20px 0px 20px 30px" href="https://www.twitch.com" target="_blank" />
+          <mj-text font-size="16px" padding="0px 0px 20px 40px">
+            It's time to meet the chat IRL
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right" padding="45px 32px 0px 0px">
+            <a href="https://www.twitch.com" target="_blank" class="header-anchor-text text-white">My Account</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- End Of Header -->
+
+    <!-- Hero -->
+    <mj-section>
+      <mj-group>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/vBLXCpzp/twitchcon.jpg" alt="twitch con image" href="https://www.twitch.com" target="_blank" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Hero -->
+
+    <!-- Start Of Intro-->
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="body-text" padding="20px 0px 10px 35px">
+            Nick,
+          </mj-text>
+          <mj-text mj-class="body-text">
+            TwitchCon Paris is set to be the best one yet - and you're going to
+            be there. Get ready to celebrate everything that makes Twitch
+            special, live and in IRL. Tell the world you're going with our
+            social sharing assets!
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-button mj-class="btn" href="https://www.twitch.com" target="_blank" css-class="btn-text-white">
+            Check it out
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column padding-top="15px">
+          <mj-text mj-class="header-body-text">
+            Who's coming?
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Some of the biggest streamers from all around the world will be in
+            attendance doing what they do best. See what else is happening...
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-button mj-class="btn" href="https://www.twitch.com" target="_blank" css-class="btn-text-white">
+            Take a look
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Of Intro -->
+
+    <!-- Lineup Section -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/L6sv0QZb/travel.jpg" alt="twitch streamer guests" href="https://www.twitch.com" target="_blank" />
+      </mj-column>
+    </mj-section>
+    <!-- End Lineup Section -->
+
+    <!-- "Whats Happening" Section -->
+    <mj-section mj-class="body-bg" padding-bottom="35px">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="header-body-text" padding-top="30px">
+            What's Happening?
+          </mj-text>
+          <mj-text mj-class="body-text">
+            TwitchCon is the time to connect with everyone from the chat IRL,
+            and with so much to explore, you'll have plenty to talk about. From
+            Meet and Greets with your favorite creators to Community MeetUps and
+            Creator Camp, you'll be sure to have a weekends worth of memories
+            that will last you a lifetime!
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End "Whats Happening" Section -->
+
+    <!-- Collage Section -->
+    <mj-section mj-class="body-bg">
+
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/DyCpv3Th/arena.jpg" alt="twitch rival arena" width="250px" align="left" padding="20px 10px 30px 35px" css-class="mobile-image1" />
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="img-text" padding-top="30px" css-class="hidden-text">
+          Go head to head in the Twitch Rivals Arena
+        </mj-text>
+        <mj-divider mj-class="divider" css-class="hidden-text" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="body-bg">
+
+      <mj-column>
+        <mj-text mj-class="img-text" padding-left="35px" css-class="hidden-text">
+          Meet and Greets with the worlds top content creators
+        </mj-text>
+        <mj-divider mj-class="divider" padding-left="25px" css-class="hidden-text" />
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/FsnGtbys/greet.jpg" alt="meet and greet" align="right" width="250px" height="180px" padding="30px" css-class="mobile-image2" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-bg">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/MH95pVg5/community.jpg" alt="community meet up" align="left" width="250px" height="180px" padding="20px 10px 30px 35px" css-class="mobile-image3" />
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="img-text" css-class="hidden-text">
+          Connect with online friends during the Community MeetUp
+        </mj-text>
+        <mj-divider mj-class="divider" css-class="hidden-text" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-bottom="20px">
+      <mj-column>
+        <mj-text mj-class="img-text" padding-left="35px" css-class="hidden-text">
+          Pick up some Twitch merch at the "Loot Cave"
+        </mj-text>
+        <mj-divider mj-class="divider" padding-left="19px" css-class="hidden-text" />
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/zvzpN023/lootcave.jpg" alt="man holding a bag" width="240px" padding-top="35px" css-class="mobile-image4" />
+      </mj-column>
+    </mj-section>
+
+    <!-- End Collage Section-->
+
+    <!-- Travel Section -->
+    <mj-wrapper mj-class="body-bg">
+      <mj-section padding="40px 35px 10px 35px">
+        <mj-group>
+          <mj-column mj-class="twitch-bg">
+            <mj-text mj-class="header-body-text" padding-top="45px">
+              Plan Your Trip!
+            </mj-text>
+            <mj-text mj-class="body-text">
+              Need a hotel in Paris? Book through our partner to score reduced rate rooms.
+              Plus, get advice on travel and transport.
+            </mj-text>
+            <mj-button mj-class="btn" href="https://www.twitch.com" target="_blank" css-class="btn-text-white">
+              Plan Travel
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+    <!-- End Travel Section-->
+
+    <!-- Footer Section -->
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/DZKBj2qr/logo2.png" href="https://www.twitch.com" target="_blank" alt="twitch icon" width="80px" padding-top="20px" align="center" />
+          <mj-text align="center" padding-top="5px" padding-bottom="15px" line-height="22px" font-size="16px">
+            Connect
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-bottom="10px">
+      <mj-group>
+        <mj-column css-class="text-white">
+          <mj-text mj-class="social-links">
+            <mj-raw>
+              <a href="https://www.instagram.com" target="_blank" class="footer-link text-white" style="color:#9146FF;">Instagram</a> |
+              <a href="https://www.facebook.com" target="_blank" class="footer-link text-white" style="color:#9146FF;">Facebook</a> |
+              <a href="https://www.twitter.com" target="_blank" class="footer-link text-white" style="color:#9146FF;">Twitter</a>
+            </mj-raw>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column padding-bottom="40px">
+          <mj-text mj-class="footer-text" line-height="26px">
+            This email was sent by Twitch
+          </mj-text>
+          <mj-text mj-class="footer-text" line-height="26px">
+            350 Bush St. 2nd Floor San Francisco, CA 94104, US
+          </mj-text>
+          <mj-text mj-class="footer-text" padding-top="10px" padding-left="35px" padding-right="35px" line-height="16px">
+            You are receiving this email because you are a valued member of the Twitch Community.
+            To stop receiving emails from Twitch,
+            <mj-raw>
+              <a href="https://www.twitch.com" class="text-white">unsubscribe from this list.</a>
+            </mj-raw>
+          </mj-text>
+          <mj-text mj-class="footer-text" padding-top="20px">
+            ©2023 Twitch All rights reserved
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Footer Section -->
+  </mj-body>
+</mjml>
