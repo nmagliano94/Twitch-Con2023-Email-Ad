@@ -78,7 +78,7 @@
     <mj-section background-color="#9146FF">
       <mj-group>
         <mj-column>
-          <mj-image src="https://i.postimg.cc/zfhxFLRD/logo.jpg" alt="twitch logo" width="150px" align="left" padding="20px 0px 20px 30px" href="https://www.twitch.com" target="_blank" />
+          <mj-image src="https://i.postimg.cc/ryRs4R0q/logo.jpg" alt="twitch logo" width="150px" align="left" padding="20px 0px 20px 30px" href="https://www.twitch.com" target="_blank" />
           <mj-text font-size="16px" padding="0px 0px 20px 40px">
             It's time to meet the chat IRL
           </mj-text>
@@ -97,7 +97,7 @@
     <mj-section>
       <mj-group>
         <mj-column>
-          <mj-image src="https://i.postimg.cc/vBLXCpzp/twitchcon.jpg" alt="twitch con image" href="https://www.twitch.com" target="_blank" />
+          <mj-image src="https://i.postimg.cc/8PhCK8m3/twitchcon.jpg" alt="twitch con image" href="https://www.twitch.com" target="_blank" />
         </mj-column>
       </mj-group>
     </mj-section>
@@ -156,9 +156,9 @@
     <!-- End Of Intro -->
 
     <!-- Lineup Section -->
-    <mj-section>
+    <mj-section mj-class="body-bg">
       <mj-column>
-        <mj-image src="https://i.postimg.cc/L6sv0QZb/travel.jpg" alt="twitch streamer guests" href="https://www.twitch.com" target="_blank" />
+        <mj-image src="https://i.postimg.cc/wBbWSGk8/final-flyer.png" alt="twitch streamer guests" href="https://www.twitch.com" target="_blank" padding-bottom="5px" />
       </mj-column>
     </mj-section>
     <!-- End Lineup Section -->
@@ -184,54 +184,60 @@
 
     <!-- Collage Section -->
     <mj-section mj-class="body-bg">
-
-      <mj-column>
-        <mj-image src="https://i.postimg.cc/DyCpv3Th/arena.jpg" alt="twitch rival arena" width="250px" align="left" padding="20px 10px 30px 35px" css-class="mobile-image1" />
-      </mj-column>
-      <mj-column>
-        <mj-text mj-class="img-text" padding-top="30px" css-class="hidden-text">
-          Go head to head in the Twitch Rivals Arena
-        </mj-text>
-        <mj-divider mj-class="divider" css-class="hidden-text" />
-      </mj-column>
+      <mj-group>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/NfhMkGmm/arena.jpg" alt="twitch rival arena" width="250px" align="left" padding="20px 10px 30px 35px" css-class="mobile-image1" />
+        </mj-column>
+        <mj-column>
+          <mj-text mj-class="img-text" padding-top="30px" css-class="hidden-text">
+            Go head to head in the Twitch Rivals Arena
+          </mj-text>
+          <mj-divider mj-class="divider" css-class="hidden-text" />
+        </mj-column>
+      </mj-group>
     </mj-section>
 
 
     <mj-section mj-class="body-bg">
-
-      <mj-column>
-        <mj-text mj-class="img-text" padding-left="35px" css-class="hidden-text">
-          Meet and Greets with the worlds top content creators
-        </mj-text>
-        <mj-divider mj-class="divider" padding-left="25px" css-class="hidden-text" />
-      </mj-column>
-      <mj-column>
-        <mj-image src="https://i.postimg.cc/FsnGtbys/greet.jpg" alt="meet and greet" align="right" width="250px" height="180px" padding="30px" css-class="mobile-image2" />
-      </mj-column>
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="img-text" padding-left="35px" css-class="hidden-text">
+            Meet and Greets with the worlds top content creators
+          </mj-text>
+          <mj-divider mj-class="divider" padding-left="25px" css-class="hidden-text" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/V6rfX2NK/greet.jpg" alt="meet and greet" align="right" width="250px" height="180px" padding="30px" css-class="mobile-image2" />
+        </mj-column>
+      </mj-group>
     </mj-section>
 
     <mj-section mj-class="body-bg">
-      <mj-column>
-        <mj-image src="https://i.postimg.cc/MH95pVg5/community.jpg" alt="community meet up" align="left" width="250px" height="180px" padding="20px 10px 30px 35px" css-class="mobile-image3" />
-      </mj-column>
-      <mj-column>
-        <mj-text mj-class="img-text" css-class="hidden-text">
-          Connect with online friends during the Community MeetUp
-        </mj-text>
-        <mj-divider mj-class="divider" css-class="hidden-text" />
-      </mj-column>
+      <mj-group>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/8CCPz7gQ/community.jpg" alt="community meet up" align="left" width="250px" height="180px" padding="20px 10px 30px 35px" css-class="mobile-image3" />
+        </mj-column>
+        <mj-column>
+          <mj-text mj-class="img-text" css-class="hidden-text">
+            Connect with online friends during the Community MeetUp
+          </mj-text>
+          <mj-divider mj-class="divider" css-class="hidden-text" />
+        </mj-column>
+      </mj-group>
     </mj-section>
 
     <mj-section mj-class="body-bg" padding-bottom="20px">
-      <mj-column>
-        <mj-text mj-class="img-text" padding-left="35px" css-class="hidden-text">
-          Pick up some Twitch merch at the "Loot Cave"
-        </mj-text>
-        <mj-divider mj-class="divider" padding-left="19px" css-class="hidden-text" />
-      </mj-column>
-      <mj-column>
-        <mj-image src="https://i.postimg.cc/zvzpN023/lootcave.jpg" alt="man holding a bag" width="240px" padding-top="35px" css-class="mobile-image4" />
-      </mj-column>
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="img-text" padding-left="35px" css-class="hidden-text">
+            Pick up some Twitch merch at the "Loot Cave"
+          </mj-text>
+          <mj-divider mj-class="divider" padding-left="19px" css-class="hidden-text" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/FHpHvjqV/lootcave.jpg" alt="man holding a bag" width="240px" padding-top="35px" css-class="mobile-image4" />
+        </mj-column>
+      </mj-group>
     </mj-section>
 
     <!-- End Collage Section-->
@@ -261,7 +267,7 @@
     <mj-section mj-class="body-bg">
       <mj-group>
         <mj-column>
-          <mj-image src="https://i.postimg.cc/DZKBj2qr/logo2.png" href="https://www.twitch.com" target="_blank" alt="twitch icon" width="80px" padding-top="20px" align="center" />
+          <mj-image src="https://i.postimg.cc/fRDR1HHb/logo2.png" href="https://www.twitch.com" target="_blank" alt="twitch icon" width="80px" padding-top="20px" align="center" />
           <mj-text align="center" padding-top="5px" padding-bottom="15px" line-height="22px" font-size="16px">
             Connect
           </mj-text>
